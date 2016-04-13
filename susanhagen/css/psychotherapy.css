@@ -1,0 +1,213 @@
+body {
+	color: black;
+	background-color: white;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+h1 {
+	color: darkgray;
+	padding: 10px 0;
+	border-top: 4px double #000000;
+	border-bottom: 4px double #000000;
+	border-left: none;
+	border-right: none;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	word-spacing: 1.5em;
+	letter-spacing: 3px;
+}
+
+img {
+	border: thick solid gray;
+	border-radius: 125px;
+	-moz-border-radius: 125px;
+-webkit-border-radius: 125px;
+border-radius: 125px; 
+-khtml-border-radius: 125px; 
+position: relative;
+z-index: 20;
+}
+
+nav {
+	display: inline-flex;
+	width: 100%;
+	position: relative;
+	bottom: 148px;
+}
+
+.butt {
+	padding: 10px 36px;
+	border-top: 4px double #000000;
+	border-bottom: 4px double #000000;
+	border-left: none;
+	border-right: none;
+	width: 12%;
+	float: left;
+}
+
+.empty {
+	padding: 10px;
+	border-top: medium double #000000;
+	border-bottom: medium double #000000;
+	border-left: none;
+	border-right: none;
+	width: 32%;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+#leftaside {
+	float: left;
+	width: 20%;
+}
+
+#quote {
+	width: 74%;
+	text-align: left;
+	font-size: 18px;
+	font-weight: lighter;
+	line-height: 1.6em;
+	position: relative;
+	padding: 10px;
+	margin: 0 15px 10px 15px;
+	float: left;
+	border-top: 3px;
+	border-bottom: 3px;
+	border-style: double;
+	border-color: gray;
+	border-right: none;
+	border-left: none;
+	}
+
+#happy {
+	text-align: left;
+	font-size: 18px;
+	font-weight: lighter;
+	line-height: 1.6em;
+	margin: 0 25px;
+	float: left;
+	width: 60%;
+}
+
+#happyhour {
+	float: left;
+	clear: both;
+	border: thick solid gray;
+	border-radius: 125px;
+	-moz-border-radius: 125px;
+-webkit-border-radius: 125px;
+border-radius: 125px; 
+-khtml-border-radius: 125px; 
+position: relative;
+z-index: 20;
+	margin-top: 15px;
+	margin-left: 15%;
+}
+
+#rigthaside {
+	float: right;
+	width: 20%;
+}
+
+#groups {
+	float: right;
+	clear: right;
+	font-weight: lighter;
+	padding: 20px;
+	padding-bottom: 88px;
+	margin-right: 5%;
+	position: relative;
+	border: .5px dotted gray;
+	border-radius: 125px;
+	-moz-border-radius: 125px;
+-webkit-border-radius: 125px;
+border-radius: 125px; 
+-khtml-border-radius: 125px; 
+}
+
+#leaf {
+	border: none;
+	display: inline;
+	position: relative;
+	top: 36px;
+	right: 6px;
+}
+
+.reveal_more {
+	margin-right: 30px;
+	float: right;
+	clear: right;
+	background: whitesmoke;
+	border: .5px solid gray;
+  	border-radius: 10px;
+  	-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; 
+-khtml-border-radius: 10px; 
+  	color: black;
+  	cursor: pointer;
+  	display: inline-block;
+  	padding: 10px 45px;
+  	text-align: center;
+} 
+#rightaside a:hover {
+	background: gainsboro;
+}
+
+.box {
+	display: none;
+}
+
+
+
+#tap {
+	float: right;
+	clear: right;
+	margin-right: 7%;
+	font-weight: lighter;
+}
+
+.tapping {
+	text-align: left;
+	font-size: 18px;
+	font-weight: lighter;
+	line-height: 1.6em;
+	margin: 10px 25px;
+	float: right;
+	clear: right;
+	width: 20%;
+}
+
+h2 {
+	color: darkgray;
+	margin: 15px 24%;
+	font-weight: lighter;
+	}
+
+article {
+	font-family: serif;
+	font-weight: lighter;
+	width: 70%;
+	text-align: left;
+	font-size: 20px;
+	line-height: 1.8em;
+	padding: 25px 70px;
+	margin: 50px auto;
+	border: .5px solid gray;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	border-radius: 15px; 
+    -khtml-border-radius: 15px; 
+	position: relative;
+	z-index: 20;
+	background-color: whitesmoke;
+}
+
+h2	{
+	margin: 10px 24%;
+}

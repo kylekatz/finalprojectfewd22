@@ -1,0 +1,272 @@
+body {
+	color: black;
+	background-color: white;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+ .normal h1 {
+ 	color: darkgray;
+	letter-spacing: 3px;
+	word-spacing: 10px;
+	padding: 10px 0;
+	border-top: 4px double #000000;
+	border-bottom: 4px double #000000;
+	border-left: none;
+	border-right: none;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+}
+
+.normal .headerpic {
+	border: thick solid gray;
+	border-radius: 125px;
+	-moz-border-radius: 125px;
+    -webkit-border-radius: 125px;
+	border-radius: 125px; 
+	-khtml-border-radius: 125px; 
+	position: relative;
+	left: 150px;
+	z-index: 20;
+}
+
+#trekkie {
+	border: 5px solid gray;
+	border-radius: 125px;
+	-moz-border-radius: 125px;
+    -webkit-border-radius: 125px;
+	border-radius: 125px; 
+    -khtml-border-radius: 125px; 
+	position: relative;
+	float: right;
+	clear: both;
+	padding: 0;
+	position: relative;
+	bottom: 15px;
+	background-color: white;
+}
+
+#what {
+	visibility: hidden;
+	float: right;
+	position: relative;
+	right: 10px;
+}
+
+#trekkie:hover {
+	cursor: pointer;
+}
+
+#trekkie:hover + #what {
+	visibility: visible;
+}
+
+#trekkie:focus {
+	outline: none;
+}
+
+nav {
+	display: inline-flex;
+	width: 100%;
+	position: relative;
+	bottom: 148px;
+}
+
+.normal .hide {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.butt {
+	font-size: 18px;
+	padding: 10px 36px;
+	border-top: 4px double #000000;
+	border-bottom: 4px double #000000;
+	border-left: none;
+	border-right: none;
+	width: 12%;
+	float: left;
+}
+
+.butt:hover {
+	cursor: pointer;
+}
+
+.empty {
+	padding: 10px;
+	border-top: 4px double #000000;
+	border-bottom: 4px double #000000;
+	border-left: none;
+	border-right: none;
+	width: 32%;
+	float: left;
+}
+
+.testimonial {
+	font-family: serif;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 2em;
+	margin: 30px auto;
+	width: 33.33%;
+	text-align: center;
+}
+
+span {
+	font-weight: bold;
+}
+
+body.theme {
+	color: gold;
+	background-color: aliceblue;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.theme header {
+  background-image: url("http://nebulaartistic.com/wp-content/uploads/Nebula_BAnner.jpg");
+  height: 220px;
+}
+
+.theme h1 {
+	border-top: 5px ridge steelblue;
+	border-bottom: 5px groove steelblue;
+	border-left: none;
+	border-right: none;
+	padding: 5px 0;
+	font-family: 'Play', sans-serif;
+	font-weight: bold;
+	word-spacing: 1.5em;
+  	background-color: #006cb0;
+}
+
+.theme #what {
+	font-family: 'Play', sans-serif;
+}
+
+.theme .headerpic {
+	border: thick solid gold;
+	border-radius: 175px;
+	-moz-border-radius: 175px;
+	-webkit-border-radius: 175px;
+	border-radius: 175px; 
+    -khtml-border-radius: 175px; 
+	position: relative;
+	left: 180px;
+	z-index: 20;
+}
+
+.theme .arrow {
+	position: relative;
+	right: -3px;
+	top: 1px;
+}
+
+.theme nav {
+  	font-family: 'Play', sans-serif;
+ 	font-size: 1.2em;
+  	font-weight: bold;
+	display: inline-flex;
+	width: 100%;
+	position: relative;
+	bottom: 225px;
+	border-top: 5px ridge steelblue;
+	border-bottom: 5px groove steelblue;
+	border-left: none;
+	border-right: none;
+  	background-color: #006cb0;
+}
+
+.theme .butt, .hide{
+    position:relative;
+    width:18%;
+    height:34px;
+    margin: 2px 20px;
+    padding: 5px 18px;
+    border-top: none;
+    border-bottom: none;
+    color:white;
+    text-align:center;
+    font-size: 22px;
+    vertical-align: middle;
+    line-height: 30px;
+    z-index: 20;
+    background-color: steelblue;
+    box-shadow: 0 4px 8px #ccc, 10px 5px 8px -4px #ccc, -9px 5px 8px -4px #CCC;
+    background-image: -webkit-linear-gradient(-90deg, rgba(255, 255, 255, 0.1) 0%, rgba(244, 244, 244, 0.35) 50%, rgba(225, 225, 225, 0) 51%, rgba(246, 246, 246, 0) 100%);
+}
+
+.theme .butt:before, .theme .butt:after, .theme .hide:before, .theme .hide:after {
+    content:'';
+    position:absolute;
+    top: 5px;
+    height: 34px;
+    width: 14.5%; 
+    border-radius:4px;
+    -webkit-transform: rotateZ(45deg);
+    z-index: 10;
+    background-color: steelblue;
+    background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 0%, rgba(244, 244, 244, 0.35) 50%, rgba(225, 225, 225, 0) 51%, rgba(246, 246, 246, 0) 100%);
+}
+.theme .butt:before, .theme .hide:before{
+    left:-14px;
+    box-shadow: 0px 7px 11px -4px #ccc;
+}
+.theme .butt:after, .theme .hide:after {
+    right:-14px;
+    box-shadow: 7px 0px 11px -4px #ccc;
+}
+
+.theme .butt:hover, .theme .hide:hover {
+	cursor: pointer;
+}
+.theme .empty {
+	padding: 10px;
+	width: 32%;
+	float: left;
+	border: none;
+} 
+
+.theme .losethis {
+	display: none;
+}
+
+.theme #trekkie {
+	position: relative;
+	bottom: 0;
+	background-color: aliceblue;
+	cursor: pointer;
+}
+
+.theme a {
+  color: gold;
+	text-decoration: none;
+	z-index: 30;
+}
+
+.theme .testimonial {
+	font-family: serif;
+	font-weight: lighter;
+	line-height: 1.5em;
+	margin: auto;
+	width: 60%;
+	text-align: left;
+	font-size: 20px;
+	line-height: 2em;
+	text-align: center;
+	padding: 45px;
+	width: 33.333%;
+	border: 5px solid gold;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-radius: 15px; 
+-khtml-border-radius: 15px; 
+position: relative;
+top: 300px;
+z-index: 20;
+	background-color: steelblue;
+}

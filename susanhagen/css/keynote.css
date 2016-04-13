@@ -1,0 +1,93 @@
+body {
+	color: black;
+	background-color: white;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+h1 {
+	border-top: medium double #000000;
+	border-bottom: medium double #000000;
+	border-left: none;
+	border-right: none;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+img {
+	border: thick solid gray;
+	border-radius: 125px;
+	-moz-border-radius: 125px;
+-webkit-border-radius: 125px;
+border-radius: 125px; 
+-khtml-border-radius: 125px; 
+position: relative;
+z-index: 20;
+}
+
+nav {
+	display: inline-flex;
+	width: 100%;
+	position: relative;
+	bottom: 148px;
+}
+
+.butt {
+	padding: 10px 36px;
+	border-top: medium double #000000;
+	border-bottom: medium double #000000;
+	border-left: none;
+	border-right: none;
+	width: 12%;
+	float: left;
+}
+
+.empty {
+	padding: 10px;
+	border-top: medium double #000000;
+	border-bottom: medium double #000000;
+	border-left: none;
+	border-right: none;
+	width: 32%;
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+#leftaside {
+	float: left;
+	width: 20%;
+}
+
+#rightaside {
+	float: right;
+	width: 20%;
+}
+
+article {
+	font-family: serif;
+	font-weight: lighter;
+	line-height: 1.5em;
+	margin: auto;
+	width: 40%;
+	text-align: left;
+	font-size: 18px;
+	line-height: 1.5em;
+	padding: 25px;
+	margin: 20px auto;
+	border: .5px solid gray;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-radius: 15px; 
+-khtml-border-radius: 15px; 
+position: relative;
+z-index: 20;
+	background-color: whitesmoke;
+}
+
+#tree {
+	border: none;
+}

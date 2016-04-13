@@ -1,0 +1,79 @@
+body {
+	color: black;
+	background-color: white;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+h1 {
+	color: darkgray;
+	padding: 10px 0;
+	border-top: 4px double #000000;
+	border-bottom: 4px double #000000;
+	border-left: none;
+	border-right: none;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	word-spacing: 1.5em;
+	letter-spacing: 3px;
+}
+
+nav {
+	display: inline-flex;
+	width: 100%;
+	position: relative;
+	top: 38px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.butt {
+	padding: 10px 96px;
+	border-top: 4px double #000000;
+	border-bottom: 4px double #000000;
+	border-left: none;
+	border-right: none;
+	width: 12%;
+	float: left;
+}
+
+#left {
+	float: left;
+	text-align: left;
+	line-height: 2em;
+	font-family: serif;
+	font-weight: lighter;
+	width: 20%;
+	text-align: left;
+	font-size: 18px;
+	padding: 25px 70px;
+	margin: 25px 13%;
+	border: .5px solid gray;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	border-radius: 15px; 
+    -khtml-border-radius: 15px; 
+	position: relative;
+	z-index: 20;
+	background-color: whitesmoke;
+}
+
+#right {
+	float: left;
+	margin: 20px 10%;
+	font-family: serif;
+	font-weight: lighter;
+}
+
+img {
+	border: .5px solid gray;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	border-radius: 15px; 
+    -khtml-border-radius: 15px; 
+}
+

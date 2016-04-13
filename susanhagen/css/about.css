@@ -1,0 +1,113 @@
+body {
+	color: black;
+	background-color: white;
+	text-align: center;
+	box-sizing: border-box;
+}
+	
+h1 {
+	color: darkgray;
+	padding: 10px 0;
+	border-top: 4px double #000000;
+	border-bottom: 4px double #000000;
+	border-left: none;
+	border-right: none;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	word-spacing: 1.5em;
+}
+
+img {
+	border: thick solid gray;
+	border-radius: 125px;
+	-moz-border-radius: 125px;
+-webkit-border-radius: 125px;
+border-radius: 125px; 
+-khtml-border-radius: 125px; 
+position: relative;
+z-index: 20;
+}
+
+nav {
+	display: inline-flex;
+	width: 100%;
+	position: relative;
+	bottom: 148px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.butt {
+	font-size: 18px;
+	padding: 10px 36px;
+	border-top: 4px double #000000;
+	border-bottom: 4px double #000000;
+	border-left: none;
+	border-right: none;
+	width: 12%;
+	float: left;
+}
+
+
+.empty {
+	padding: 10px;
+	border-top: 4px double #000000;
+	border-bottom: 4px double #000000;
+	border-left: none;
+	border-right: none;
+	width: 32%;
+	float: left;
+}
+
+h4 {
+	text-align: left;
+	line-height: 1.6em;
+	margin: 15px;
+	width: 20%;
+	border-bottom: medium double gray;
+	border-top: medium double gray;
+	}
+
+#resume {
+	width: 20%;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.6em;
+	position: relative;
+	margin: 0 15px 5px 15px;
+	float: left;
+	border-bottom-width: medium;
+	border-bottom-style: double;
+	border-bottom-color: gray;
+	}
+
+h2 {
+	margin: 15px 24%;
+	font-weight: lighter;
+}
+
+#bio {
+	font-family: serif;
+	line-height: 1.5em;
+	margin: auto;
+	width: 30%;
+	text-align: left;
+	font-size: 18px;
+	line-height: 1.5em;
+	padding: 25px;
+	margin: 0 auto;
+	border: .5px solid gray;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-radius: 15px; 
+-khtml-border-radius: 15px; 
+position: relative;
+z-index: 20;
+	background-color: whitesmoke;
+}
+
