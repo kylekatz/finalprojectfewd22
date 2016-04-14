@@ -91,14 +91,15 @@ h2 {
 }
 
 #bio {
+	color: darkgray;
 	font-family: serif;
 	line-height: 1.5em;
 	margin: auto;
 	width: 30%;
 	text-align: left;
-	font-size: 18px;
-	line-height: 1.5em;
-	padding: 25px;
+	font-size: 20px;
+	line-height: 1.8em;
+	padding: 25px 75px;
 	margin: 0 auto;
 	border: .5px solid gray;
 	border-radius: 15px;

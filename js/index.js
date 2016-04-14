@@ -9,8 +9,8 @@ $(document).ready(function(){
         $( ".theme h1" ).replaceWith( "<h1>Captain Susan B. Hagen, Starship Intrepid</h1>" );
         $( ".normal h1" ).replaceWith( "<h1>Susan B. Hagen, MA, MEd Counseling Services</h1>" );
         /////CHANGE HEADER IMAGE AND CHANGE IT BACK
-        $(".theme .headerpic").attr("src", "../images/starfleetsm.jpeg");
-        $(".normal .headerpic").attr("src", "../images/susan1.png");
+        $(".theme .headerpic").attr("src", "images/starfleetsm.jpeg");
+        $(".normal .headerpic").attr("src", "images/susan1.png");
         /////CHANGE THIRD BUTTON TO CAPTAIN'S LOG
 		$('.theme .butt:contains("Keynote and Speaking")').text("Captain's Log");
 		$('.normal .butt:contains("Captain\'s Log")').text("Keynote and Speaking");
