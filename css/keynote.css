@@ -12,8 +12,10 @@ h1 {
 	border-bottom: 4px double #000000;
 	border-left: none;
 	border-right: none;
-	font-family: sans-serif;
-	font-weight: lighter;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	word-spacing: 1.5em;
+	letter-spacing: 3px;
 }
 
 img {
