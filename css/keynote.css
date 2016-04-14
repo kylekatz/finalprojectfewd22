@@ -69,13 +69,11 @@ a {
 article {
 	font-family: serif;
 	font-weight: lighter;
-	line-height: 1.5em;
-	margin: auto;
 	width: 40%;
 	text-align: left;
 	font-size: 20px;
 	line-height: 1.8em;
-	padding: 25px 75;
+	padding: 25px 75px;
 	margin: 20px auto;
 	border: .5px solid gray;
 	border-radius: 15px;
