@@ -1,10 +1,12 @@
+/* Body styles, box-sizing to include padding and border in width and height */
 body {
 	color: black;
 	background-color: white;
 	text-align: center;
 	box-sizing: border-box;
 }
-
+ 
+/* Headline styles */
  .normal h1 {
  	color: darkgray;
 	padding: 10px 0;
@@ -18,6 +20,7 @@ body {
 	word-spacing: 10px;
 }
 
+/* Styles the header img and places it above the nav */
 .normal .headerpic {
 	border: thick solid gray;
 	border-radius: 125px;
@@ -30,6 +33,7 @@ body {
 	z-index: 20;
 }
 
+/* Button styles */
 #trekkie {
 	border: 5px solid gray;
 	border-radius: 125px;
@@ -46,6 +50,7 @@ body {
 	background-color: white;
 }
 
+/* Hides the words over the button */
 #what {
 	visibility: hidden;
 	float: right;
@@ -53,18 +58,20 @@ body {
 	right: 10px;
 }
 
-#trekkie:hover {
+/* Cursor style hand */
+#trekkie:hover, .butt:hover {
 	cursor: pointer;
 }
-
+/* Shows words when button is hovered. PLus sign is the adjacent sibling selector */
 #trekkie:hover + #what {
 	visibility: visible;
 }
-
+/* Remove outline on button */
 #trekkie:focus {
 	outline: none;
 }
 
+/* Nav positioning */
 nav {
 	display: inline-flex;
 	width: 100%;
@@ -72,14 +79,18 @@ nav {
 	bottom: 148px;
 }
 
+/* Hides the Captain's Log button in normal theme */
 .normal .hide {
 	display: none;
 }
 
+/* Removes default underlines and font color */
 a {
+	color: black;
 	text-decoration: none;
 }
 
+/* Button styles */
 .butt {
 	font-size: 18px;
 	padding: 10px 36px;
@@ -91,10 +102,7 @@ a {
 	float: left;
 }
 
-.butt:hover {
-	cursor: pointer;
-}
-
+/* I made space in the Nav for the picture to be over it with an empty div */
 .empty {
 	padding: 10px;
 	border-top: 4px double #000000;
@@ -105,6 +113,7 @@ a {
 	float: left;
 }
 
+/* Testimonial paragraph styles */
 .testimonial {
 	font-family: serif;
 	font-size: 20px;
@@ -115,10 +124,12 @@ a {
 	text-align: center;
 }
 
+/* Bolds author's name */
 span {
 	font-weight: bold;
 }
 
+/* Here begin the styles for the Star Trek theme class */
 body.theme {
 	color: gold;
 	background-color: aliceblue;
@@ -126,11 +137,13 @@ body.theme {
 	box-sizing: border-box;
 }
 
+/* Adds star background to header */
 .theme header {
   background-image: url("http://nebulaartistic.com/wp-content/uploads/Nebula_BAnner.jpg");
   height: 220px;
 }
 
+/* Changes the h1 border style, color and font */
 .theme h1 {
 	border-top: 5px ridge steelblue;
 	border-bottom: 5px groove steelblue;
@@ -143,10 +156,12 @@ body.theme {
   	background-color: #006cb0;
 }
 
+/* Font for on hover only words */
 .theme #what {
 	font-family: 'Play', sans-serif;
 }
 
+/* Styles Star Trek header img over the nav */
 .theme .headerpic {
 	border: thick solid gold;
 	border-radius: 175px;
@@ -159,12 +174,14 @@ body.theme {
 	z-index: 20;
 }
 
+/* Moves button slightly relative to the new header size */
 .theme .arrow {
 	position: relative;
 	right: -3px;
 	top: 1px;
 }
 
+/* Star Trek nav styling */
 .theme nav {
   	font-family: 'Play', sans-serif;
  	font-size: 1.2em;
@@ -180,6 +197,7 @@ body.theme {
   	background-color: #006cb0;
 }
 
+/* Star Trek nav button styling including hidden Captain's Log button and gradient */
 .theme .butt, .hide{
     position:relative;
     width:18%;
@@ -199,6 +217,7 @@ body.theme {
     background-image: -webkit-linear-gradient(-90deg, rgba(255, 255, 255, 0.1) 0%, rgba(244, 244, 244, 0.35) 50%, rgba(225, 225, 225, 0) 51%, rgba(246, 246, 246, 0) 100%);
 }
 
+/* Styles the button's corners */
 .theme .butt:before, .theme .butt:after, .theme .hide:before, .theme .hide:after {
     content:'';
     position:absolute;
@@ -211,18 +230,24 @@ body.theme {
     background-color: steelblue;
     background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 0%, rgba(244, 244, 244, 0.35) 50%, rgba(225, 225, 225, 0) 51%, rgba(246, 246, 246, 0) 100%);
 }
+
+/* Styles that need to be different on the left and right sides */
 .theme .butt:before, .theme .hide:before{
     left:-14px;
     box-shadow: 0px 7px 11px -4px #ccc;
 }
+
 .theme .butt:after, .theme .hide:after {
     right:-14px;
     box-shadow: 7px 0px 11px -4px #ccc;
 }
 
+/* Cursor hand */
 .theme .butt:hover, .theme .hide:hover {
 	cursor: pointer;
 }
+
+/* Fits the empty div under the header img */
 .theme .empty {
 	padding: 10px;
 	width: 32%;
@@ -230,10 +255,12 @@ body.theme {
 	border: none;
 } 
 
+/* Hides the Keynote button in favor of the Captain's Log button */
 .theme .losethis {
 	display: none;
 }
 
+/* Styles and repositions the trekkie button in the Star Trek header */
 .theme #trekkie {
 	position: relative;
 	bottom: 0;
@@ -241,12 +268,14 @@ body.theme {
 	cursor: pointer;
 }
 
+/* Styles the anchors */
 .theme a {
-  color: gold;
+  	color: gold;
 	text-decoration: none;
 	z-index: 30;
 }
 
+/* Star Trek-izes the testimonial paragraph slightly */
 .theme .testimonial {
 	font-family: serif;
 	font-weight: lighter;
@@ -262,11 +291,11 @@ body.theme {
 	border: 5px solid gold;
 	border-radius: 15px;
 	-moz-border-radius: 15px;
--webkit-border-radius: 15px;
-border-radius: 15px; 
--khtml-border-radius: 15px; 
-position: relative;
-top: 300px;
-z-index: 20;
+    -webkit-border-radius: 15px;
+	border-radius: 15px; 
+    -khtml-border-radius: 15px; 
+	position: relative;
+	top: 300px;
+	z-index: 20;
 	background-color: steelblue;
 }

@@ -1,3 +1,4 @@
+// Read more button code from Edd Yerburgh's Pen Read More/ Read Less Button on Codepen
 $(function(){
 	$('.reveal_more').click(function(){
 		$('.box').hide();

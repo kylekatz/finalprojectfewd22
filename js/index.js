@@ -14,6 +14,7 @@ $(document).ready(function(){
         /////CHANGE THIRD BUTTON TO CAPTAIN'S LOG
 		$('.theme .butt:contains("Keynote and Speaking")').text("Captain's Log");
 		$('.normal .butt:contains("Captain\'s Log")').text("Keynote and Speaking");
+        // CODE SEEMS REPETITIVE. REFACTOR?
 	});
 });
 

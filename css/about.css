@@ -22,11 +22,11 @@ img {
 	border: thick solid gray;
 	border-radius: 125px;
 	-moz-border-radius: 125px;
--webkit-border-radius: 125px;
-border-radius: 125px; 
--khtml-border-radius: 125px; 
-position: relative;
-z-index: 20;
+    -webkit-border-radius: 125px;
+	border-radius: 125px; 
+	-khtml-border-radius: 125px; 
+	position: relative;
+	z-index: 20;
 }
 
 nav {
@@ -105,11 +105,11 @@ h2 {
 	border: .5px solid gray;
 	border-radius: 15px;
 	-moz-border-radius: 15px;
--webkit-border-radius: 15px;
-border-radius: 15px; 
--khtml-border-radius: 15px; 
-position: relative;
-z-index: 20;
+	-webkit-border-radius: 15px;
+	border-radius: 15px; 
+	-khtml-border-radius: 15px; 
+	position: relative;
+	z-index: 20;
 	background-color: whitesmoke;
 }
 
