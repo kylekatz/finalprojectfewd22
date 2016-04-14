@@ -67,6 +67,7 @@ a {
 }
 
 article {
+	color: darkgray;
 	font-family: serif;
 	font-weight: lighter;
 	width: 40%;
